@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MySQLite</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="returne">Returne</string>
+</resources>

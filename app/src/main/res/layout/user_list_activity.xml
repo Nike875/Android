@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:orientation="horizontal">
+
+         <ListView
+             android:id="@+id/lv_users"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"/>
+         <Button
+             android:id="@+id/btn_edit"
+             android:layout_width="125sp"
+             android:layout_height="wrap_content"
+             android:text="Edit" />
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/btn_create_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/create" />
+
+</RelativeLayout>
